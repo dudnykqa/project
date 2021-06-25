@@ -22,10 +22,31 @@
 //const user = "Ivan";
 //alert (`Hello, ${user}`);
     
-console.log('arr' + " - object" );
+//console.log('arr' + " - object" );
 
- const isChecked = false,
-       isClose = false;
-console.log(isChecked || !isClose);
+// const isChecked = false,
+ //      isClose = false;
+//console.log(isChecked || !isClose);
 
-console.log (2 + 2 * 2 == 8);
+//console.log (2 + 2 * 2 == 8);
+
+const numberOfFilms = +prompt ('Сколько фильмов вы уже смотрели?','');
+console.log(numberOfFilms);
+
+const personalMovieDB = {
+      count: numberOfFilms,
+      movies: {},
+      actors:{},
+      genres: [],
+      privat: false
+};
+
+const a = prompt('Один из последних просмотренных фильмов?',''),
+      b = prompt('На сколько оцените его?',''),
+      c = prompt('Один из последних просмотренных фильмов?',''),
+      d = prompt('На сколько оцените его?','');
+
+personalMovieDB.movies [a] = b;
+personalMovieDB.movies [c] = d;
+
+console.log(personalMovieDB);
