@@ -30,7 +30,10 @@
 
 //console.log (2 + 2 * 2 == 8);
 
-const numberOfFilms = +prompt ('Сколько фильмов вы уже смотрели?','');
+
+//----------------------------------------------------------------------------------------
+//lesson 12
+/*const numberOfFilms = +prompt ('Сколько фильмов вы уже смотрели?','');
 console.log(numberOfFilms);
 
 const personalMovieDB = {
@@ -49,4 +52,47 @@ const a = prompt('Один из последних просмотренных ф
 personalMovieDB.movies [a] = b;
 personalMovieDB.movies [c] = d;
 
-console.log(personalMovieDB);
+console.log(personalMovieDB);*/
+
+//-----------------------------------------------------------------------
+//lesson 13 Ysloviya
+
+/*if(1 == 2) {
+      console.log('Ok!');
+}  
+else {
+      console.log('Error');
+}
+
+const num = 122;
+
+if (num<49) {
+      console.log('Error');
+} else if (num > 100){
+      console.log('Mnogo');
+} else {
+      console.log('Ok');
+}
+
+( num === 50) ? console.log('Ok') : console.log('Error');*/
+
+/*const num = '50';
+
+switch (num) {
+      case '49':
+        console.log('Wrong');
+        break;
+      case '100':
+        console.log('Wrong');
+        break;
+      case '50': 
+        console.log('Exactly');
+        break;
+ default:  
+ console.log('Next time');
+        break;
+
+}*/
+
+//------------------------------------------------------
+//lesson 14 
